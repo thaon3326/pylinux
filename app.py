@@ -6,6 +6,6 @@ def hello():
     return "Hello, I am Thao!"
     
 @app.route("/test_git")
-def hello():
+def test_git():
     return "Hello, test git python cua toi"
     
