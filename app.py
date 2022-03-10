@@ -9,3 +9,6 @@ def hello():
 def test_git():
     return "Hello, test git python cua toi"
     
+    
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=False)
