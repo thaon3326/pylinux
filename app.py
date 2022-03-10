@@ -9,6 +9,9 @@ def hello():
 def test_git():
     return "Hello, test git python cua toi"
     
+@app.route("/add_branch")
+def add_branch():
+    return "Hello! I just add new branch in git"
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=False)
